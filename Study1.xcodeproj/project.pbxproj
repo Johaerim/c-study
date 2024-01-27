@@ -7,7 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		D483F1452B355D98003EBA52 /* main.cpp in Sources */ = {isa = PBXBuildFile; fileRef = D483F1442B355D98003EBA52 /* main.cpp */; };
+		D4F176AF2B62B4FE0005F663 /* Chapter2_6.cpp in Sources */ = {isa = PBXBuildFile; fileRef = D4F176AD2B62B4FE0005F663 /* Chapter2_6.cpp */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXCopyFilesBuildPhase section */
@@ -23,8 +23,41 @@
 /* End PBXCopyFilesBuildPhase section */
 
 /* Begin PBXFileReference section */
+		D451E1782B5BFFE600D79038 /* different_source.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = different_source.cpp; sourceTree = "<group>"; };
+		D451E1792B5BFFE600D79038 /* different_source.hpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.h; path = different_source.hpp; sourceTree = "<group>"; };
+		D451E17C2B5D59FE00D79038 /* Chapter2_1.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = Chapter2_1.cpp; sourceTree = "<group>"; };
+		D451E17D2B5D59FE00D79038 /* Chapter2_1.hpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.h; path = Chapter2_1.hpp; sourceTree = "<group>"; };
+		D451E17F2B5D659100D79038 /* Chapter2_2.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = Chapter2_2.cpp; sourceTree = "<group>"; };
+		D451E1802B5D659100D79038 /* Chapter2_2.hpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.h; path = Chapter2_2.hpp; sourceTree = "<group>"; };
+		D451E1822B5D6B8000D79038 /* Chapter2_3.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = Chapter2_3.cpp; sourceTree = "<group>"; };
+		D451E1832B5D6B8000D79038 /* Chapter2_3.hpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.h; path = Chapter2_3.hpp; sourceTree = "<group>"; };
 		D483F1412B355D98003EBA52 /* Study1 */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = Study1; sourceTree = BUILT_PRODUCTS_DIR; };
 		D483F1442B355D98003EBA52 /* main.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = main.cpp; sourceTree = "<group>"; };
+		D483F14B2B3AFD87003EBA52 /* study2.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = study2.cpp; sourceTree = "<group>"; };
+		D483F14C2B3AFD87003EBA52 /* study2.hpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.h; path = study2.hpp; sourceTree = "<group>"; };
+		D483F14F2B3B136A003EBA52 /* Chapter1_5.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = Chapter1_5.cpp; sourceTree = "<group>"; };
+		D483F1502B3B136A003EBA52 /* Chapter1_5.hpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.h; path = Chapter1_5.hpp; sourceTree = "<group>"; };
+		D483F1522B43FC79003EBA52 /* Chapter1_6.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = Chapter1_6.cpp; sourceTree = "<group>"; };
+		D483F1532B43FC79003EBA52 /* Chapter1_6.hpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.h; path = Chapter1_6.hpp; sourceTree = "<group>"; };
+		D483F1552B4EAC83003EBA52 /* Chapter1_7.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = Chapter1_7.cpp; sourceTree = "<group>"; };
+		D483F1562B4EAC83003EBA52 /* Chapter1_7.hpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.h; path = Chapter1_7.hpp; sourceTree = "<group>"; };
+		D483F1582B4EB343003EBA52 /* Chapter1_8.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = Chapter1_8.cpp; sourceTree = "<group>"; };
+		D483F1592B4EB343003EBA52 /* Chapter1_8.hpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.h; path = Chapter1_8.hpp; sourceTree = "<group>"; };
+		D483F15B2B5103E3003EBA52 /* Chapter1_9.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = Chapter1_9.cpp; sourceTree = "<group>"; };
+		D483F15C2B5103E3003EBA52 /* Chapter1_9.hpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.h; path = Chapter1_9.hpp; sourceTree = "<group>"; };
+		D483F15E2B510C14003EBA52 /* Chapter1_10.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = Chapter1_10.cpp; sourceTree = "<group>"; };
+		D483F15F2B510C14003EBA52 /* Chapter1_10.hpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.h; path = Chapter1_10.hpp; sourceTree = "<group>"; };
+		D483F1612B511219003EBA52 /* add.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = add.h; sourceTree = "<group>"; };
+		D483F1652B5970FD003EBA52 /* Chapter1_13.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = Chapter1_13.cpp; sourceTree = "<group>"; };
+		D483F1662B5970FD003EBA52 /* Chapter1_13.hpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.h; path = Chapter1_13.hpp; sourceTree = "<group>"; };
+		D483F1682B59775D003EBA52 /* Chapter1_14.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = Chapter1_14.cpp; sourceTree = "<group>"; };
+		D483F1692B59775D003EBA52 /* Chapter1_14.hpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.h; path = Chapter1_14.hpp; sourceTree = "<group>"; };
+		D4F176A52B624D550005F663 /* Chapter2_4.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = Chapter2_4.cpp; sourceTree = "<group>"; };
+		D4F176A62B624D550005F663 /* Chapter2_4.hpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.h; path = Chapter2_4.hpp; sourceTree = "<group>"; };
+		D4F176A82B624F6E0005F663 /* chapter2_5.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = chapter2_5.cpp; sourceTree = "<group>"; };
+		D4F176A92B624F6E0005F663 /* chapter2_5.hpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.h; path = chapter2_5.hpp; sourceTree = "<group>"; };
+		D4F176AD2B62B4FE0005F663 /* Chapter2_6.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = Chapter2_6.cpp; sourceTree = "<group>"; };
+		D4F176AE2B62B4FE0005F663 /* Chapter2_6.hpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.h; path = Chapter2_6.hpp; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -58,8 +91,49 @@
 			isa = PBXGroup;
 			children = (
 				D483F1442B355D98003EBA52 /* main.cpp */,
+				D483F14B2B3AFD87003EBA52 /* study2.cpp */,
+				D483F14C2B3AFD87003EBA52 /* study2.hpp */,
+				D483F14F2B3B136A003EBA52 /* Chapter1_5.cpp */,
+				D483F1502B3B136A003EBA52 /* Chapter1_5.hpp */,
+				D483F1522B43FC79003EBA52 /* Chapter1_6.cpp */,
+				D483F1532B43FC79003EBA52 /* Chapter1_6.hpp */,
+				D483F1552B4EAC83003EBA52 /* Chapter1_7.cpp */,
+				D483F1562B4EAC83003EBA52 /* Chapter1_7.hpp */,
+				D483F1582B4EB343003EBA52 /* Chapter1_8.cpp */,
+				D483F1592B4EB343003EBA52 /* Chapter1_8.hpp */,
+				D483F15B2B5103E3003EBA52 /* Chapter1_9.cpp */,
+				D483F15C2B5103E3003EBA52 /* Chapter1_9.hpp */,
+				D483F15E2B510C14003EBA52 /* Chapter1_10.cpp */,
+				D483F1642B5116E1003EBA52 /* MyHeaders */,
+				D483F15F2B510C14003EBA52 /* Chapter1_10.hpp */,
+				D483F1652B5970FD003EBA52 /* Chapter1_13.cpp */,
+				D483F1662B5970FD003EBA52 /* Chapter1_13.hpp */,
+				D483F1682B59775D003EBA52 /* Chapter1_14.cpp */,
+				D451E1782B5BFFE600D79038 /* different_source.cpp */,
+				D451E1792B5BFFE600D79038 /* different_source.hpp */,
+				D483F1692B59775D003EBA52 /* Chapter1_14.hpp */,
+				D451E17C2B5D59FE00D79038 /* Chapter2_1.cpp */,
+				D451E17D2B5D59FE00D79038 /* Chapter2_1.hpp */,
+				D451E17F2B5D659100D79038 /* Chapter2_2.cpp */,
+				D451E1802B5D659100D79038 /* Chapter2_2.hpp */,
+				D451E1822B5D6B8000D79038 /* Chapter2_3.cpp */,
+				D451E1832B5D6B8000D79038 /* Chapter2_3.hpp */,
+				D4F176A52B624D550005F663 /* Chapter2_4.cpp */,
+				D4F176A62B624D550005F663 /* Chapter2_4.hpp */,
+				D4F176A82B624F6E0005F663 /* chapter2_5.cpp */,
+				D4F176A92B624F6E0005F663 /* chapter2_5.hpp */,
+				D4F176AD2B62B4FE0005F663 /* Chapter2_6.cpp */,
+				D4F176AE2B62B4FE0005F663 /* Chapter2_6.hpp */,
 			);
 			path = Study1;
+			sourceTree = "<group>";
+		};
+		D483F1642B5116E1003EBA52 /* MyHeaders */ = {
+			isa = PBXGroup;
+			children = (
+				D483F1612B511219003EBA52 /* add.h */,
+			);
+			name = MyHeaders;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -119,7 +193,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				D483F1452B355D98003EBA52 /* main.cpp in Sources */,
+				D4F176AF2B62B4FE0005F663 /* Chapter2_6.cpp in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
